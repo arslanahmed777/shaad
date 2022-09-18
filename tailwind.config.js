@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'jobseeker': "url('./assets/images/jobseekerpic.png')",
+      },
+      fontFamily: {
+        'sans': ['Open Sans', 'system-ui',],
+      }
+    },
   },
   plugins: [],
 }
